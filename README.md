@@ -1,6 +1,6 @@
 # THF Cue Planner
 
-A timeline system for museums and AV-heavy immersive experiences, built to stop chaos, soothe project managers, and reduce the average number of late-night WhatsApp messages from contractors.
+A timeline system for THF's AV-heavy immersive experiences, built to stop chaos, soothe project managers, and reduce the average number of late-night WhatsApp messages from contractors.
 
 This tool is designed for people who want timelines that make sense, PDF reports that don’t look like crime-scene photos, and a workflow that doesn’t require sacrificing a projector lamp to the gods of scheduling.
 
