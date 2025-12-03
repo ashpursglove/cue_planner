@@ -106,11 +106,12 @@ ReportLab
 
 #### A functioning brain cell (optional but encouraged)
 
-Install dependencies with:
+  
+## Install dependencies with:
 
 pip install PyQt5 reportlab
 
-How to Run
+## How to Run
 python main.py
 
 
