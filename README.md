@@ -124,9 +124,9 @@ Reboot your computer
 
 Offer motivational words to your GPU
 
-Why This Exists
+## Why This Exists
 
-Anyone who has worked on a museum, immersive room, or AV-heavy installation knows:
+### Anyone who has worked on a museum, immersive room, or AV-heavy installation knows:
 
 The timelines never arrive on time
 
@@ -141,10 +141,10 @@ No one knows how long anything actually lasts
 This tool fixes all of that by becoming the one source of truth.
 A timeline you can trust. A PDF you can hand to the client. A system that lets you sleep better at night.
 
-Final Thoughts
+# Final Thoughts
 
 This planner was created for real-world projects: tight deadlines, shifting contractor schedules, changing designs, last-minute requests, truss work, missed cable pulls, and everything else that turns installations into heroic sagas.
 
 Use it well, generate good PDFs, and above all:
 
-Stop making timelines in Excel.
+# Stop making timelines in Excel.
