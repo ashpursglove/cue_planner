@@ -104,7 +104,7 @@ PyQt5
 
 ReportLab  
 
-###A functioning brain cell (optional but encouraged)
+#### A functioning brain cell (optional but encouraged)
 
 Install dependencies with:
 
