@@ -1,4 +1,4 @@
-# Museum Cue Planner
+# THF Cue Planner
 
 A timeline system for museums and AV-heavy immersive experiences, built to stop chaos, soothe project managers, and reduce the average number of late-night WhatsApp messages from contractors.
 
