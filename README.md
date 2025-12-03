@@ -13,68 +13,68 @@ Each room receives its own dedicated tab, allowing you to:
 
 Define when things start using:
 
-AT_TIME
+- AT_TIME
 
-AFTER_PREVIOUS
+- AFTER_PREVIOUS
 
-AFTER_CUE
+- AFTER_CUE
 
-Assign dependencies between cues
+- Assign dependencies between cues
 
-Cleanly view all cues in a table
+- Cleanly view all cues in a table
 
-See them visualised on a per-room timeline with lane separation to prevent overlaps
+- See them visualised on a per-room timeline with lane separation to prevent overlaps
 
-Full Timeline Visualisation
+- Full Timeline Visualisation
 
 Every room includes a timeline that:
 
-Automatically creates lanes for overlapping cues
+- Automatically creates lanes for overlapping cues
 
-Keeps labels readable
+- Keeps labels readable
 
-Supports zooming and panning
+- Supports zooming and panning
 
-Uses a consistent colour scheme so you can spot cue types instantly
+- Uses a consistent colour scheme so you can spot cue types instantly
 
-Mega Summary
+## Mega Summary
 
 The Summary Tab combines all rooms into:
 
-A fully stitched global timeline (Reception → Mecca)
+- A fully stitched global timeline (Reception → Mecca)
 
-Statistics per cue type, trigger type, playback mode
+- tatistics per cue type, trigger type, playback mode
 
-Room-by-room durations and breakdowns
+- Room-by-room durations and breakdowns
 
-Notes, operator guidance, and a complete human-readable timeline dump
+- Notes, operator guidance, and a complete human-readable timeline dump
 
 This is the place where you finally see the whole show from beginning to end without losing your will to live.
 
-PDF Export
+## PDF Export
 
 Exporting a professional PDF is as simple as pressing one button. The system generates:
 
-A global stitched Gantt that auto-scales to fill the entire first page
+- A global stitched Gantt that auto-scales to fill the entire first page
 
-A separate page per room, each with its own cleanly scaled timeline
+- A separate page per room, each with its own cleanly scaled timeline
 
-A full, neatly formatted text report, with headings styled for clarity
+- A full, neatly formatted text report, with headings styled for clarity
 
 These graphs are generated from scratch using ReportLab, ensuring consistent sizing, no microscopic bars, and no dependency on the GUI’s zoom or scale.
 
 You get a document you can actually hand to a client without apologising.
 
 How Cue Dependencies Work
-AT_TIME
+- AT_TIME
 
-Cue begins at a specified timestamp. Perfect for exact timing or compulsive planners.
+- Cue begins at a specified timestamp. Perfect for exact timing or compulsive planners.
 
-AFTER_PREVIOUS
+- AFTER_PREVIOUS
 
-Cue starts immediately after the one before it. Useful for simple sequences.
+- Cue starts immediately after the one before it. Useful for simple sequences.
 
-AFTER_CUE
+- AFTER_CUE
 
 Cue waits until another specific cue finishes, no matter where it sits in the list.
 Excellent for tightly choreographed AV events or avoiding synchronisation disasters.
