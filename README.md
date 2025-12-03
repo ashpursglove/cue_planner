@@ -65,7 +65,7 @@ These graphs are generated from scratch using ReportLab, ensuring consistent siz
 
 You get a document you can actually hand to a client without apologising.
 
-How Cue Dependencies Work
+## How Cue Dependencies Work
 - AT_TIME
 
 - Cue begins at a specified timestamp. Perfect for exact timing or compulsive planners.
@@ -84,27 +84,27 @@ Multi-lane Rendering
 
 Cue bars never overlap. They stack neatly, like well-behaved children in a school photo.
 
-Auto-Scaling
+## Auto-Scaling
 
 Whether you have 20 cues or 200, the graphs expand or contract to remain readable.
 
-JSON Import/Export
+## JSON Import/Export
 
 Save work, load work, move work between computers, or restore things after one accidental deletion too many.
 
-Dark Theme Interface
+## Dark Theme Interface
 
 Easier on the eyes during late-night programming sessions on-site.
 
-Requirements
+## Requirements
 
-Python 3.x
+Python 3.x  
 
-PyQt5
+PyQt5  
 
-ReportLab
+ReportLab  
 
-A functioning brain cell (optional but encouraged)
+###A functioning brain cell (optional but encouraged)
 
 Install dependencies with:
 
@@ -114,7 +114,7 @@ How to Run
 python main.py
 
 
-If it doesn’t launch:
+#### If it doesn’t launch:
 
 Verify your Python installation
 
