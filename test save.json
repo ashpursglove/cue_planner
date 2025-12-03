@@ -1,0 +1,522 @@
+{
+  "rooms": [
+    {
+      "name": "Reception",
+      "cues": [
+        {
+          "name": "drums",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Ambient",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 60.0,
+          "dependency_name": null,
+          "notes": "drums for background"
+        },
+        {
+          "name": "camles",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Ambient",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "camles stuff"
+        },
+        {
+          "name": "olives",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "camles",
+          "notes": "olives stuff"
+        },
+        {
+          "name": "Cool lighting",
+          "cue_type": "Lighting",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 80.0,
+          "duration_s": 30.0,
+          "dependency_name": null,
+          "notes": "lightning effect"
+        }
+      ]
+    },
+    {
+      "name": "Aljuhfa Path",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    },
+    {
+      "name": "Immersive Room",
+      "cues": [
+        {
+          "name": "Group enter",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 50.0,
+          "dependency_name": null,
+          "notes": "Group entry"
+        },
+        {
+          "name": "Main Projection in immersive room",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 250.0,
+          "dependency_name": "Group enter",
+          "notes": "Group entry"
+        },
+        {
+          "name": "Interaction with table",
+          "cue_type": "Interactive",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 300.0,
+          "dependency_name": "Main Projection in immersive room",
+          "notes": "Group piss around with the table"
+        },
+        {
+          "name": "Backgrounf audio",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 300.0,
+          "dependency_name": "Main Projection in immersive room",
+          "notes": "BG Audio for after projection"
+        }
+      ]
+    },
+    {
+      "name": "Road to Yemen",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    },
+    {
+      "name": "Yemen Market",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    },
+    {
+      "name": "Road to North",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    },
+    {
+      "name": "Levant Souq",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    },
+    {
+      "name": "Fabric Room",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    },
+    {
+      "name": "Mecca",
+      "cues": [
+        {
+          "name": "group moving in",
+          "cue_type": "Group Movement",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "At fixed time (s)",
+          "start_time_s": 0.0,
+          "duration_s": 120.0,
+          "dependency_name": null,
+          "notes": "group being guided"
+        },
+        {
+          "name": "some more camel stuff",
+          "cue_type": "Projection",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Play once",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "CAMELS!!!"
+        },
+        {
+          "name": "drum n bass",
+          "cue_type": "Audio",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 200.0,
+          "dependency_name": "group moving in",
+          "notes": "sick tunes"
+        },
+        {
+          "name": "some guy on the tv",
+          "cue_type": "TV",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 100.0,
+          "dependency_name": "group moving in",
+          "notes": "some other notes or something"
+        },
+        {
+          "name": "group leave",
+          "cue_type": "Facilitator Action",
+          "trigger_type": "Timeline (auto)",
+          "play_type": "Loop",
+          "start_mode": "After cue",
+          "start_time_s": 0.0,
+          "duration_s": 30.0,
+          "dependency_name": "some more camel stuff",
+          "notes": "ushers move the group out the room"
+        }
+      ]
+    }
+  ]
+}
